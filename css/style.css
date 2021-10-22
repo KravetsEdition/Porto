@@ -48,9 +48,10 @@ ul, li {
 .heroSection{
 	height: 768px;
 	width: 100%;
-	background-image: url(res/bg.png);
+	background-image: none;
+	background-image: url(../res/bg.png);
 	background-repeat: no-repeat;
-	background-color: #F5D6AB;
+	/* background-color: #F5D6AB; */
 	background-blend-mode: multiply;
 }
 
@@ -168,7 +169,7 @@ header .nav li a:hover	 {
 }
 
 .skillsImage{
-	background-image: url(../res/Profile\ Picture.png);
+	background: url(../res/Profile\ Picture.png);
 	background-repeat: no-repeat;
 	height: 350px;
 	width: 40%;
