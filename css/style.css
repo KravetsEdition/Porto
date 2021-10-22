@@ -168,7 +168,7 @@ header .nav li a:hover	 {
 }
 
 .skillsImage{
-	background: url(../res/Profile\ Picture.png);
+	background: url(res/Profile\ Picture.png);
 	background-repeat: no-repeat;
 	height: 350px;
 	width: 40%;
