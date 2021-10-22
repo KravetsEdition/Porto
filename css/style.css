@@ -49,7 +49,7 @@ ul, li {
 	height: 768px;
 	width: 100%;
 	background-image: none;
-	background-image: url(../res/bg.png);
+	background-image: url(/res/bg.png);
 	background-repeat: no-repeat;
 	/* background-color: #F5D6AB; */
 	background-blend-mode: multiply;
