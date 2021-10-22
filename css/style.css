@@ -48,7 +48,7 @@ ul, li {
 .heroSection{
 	height: 768px;
 	width: 100%;
-	background: url("res/bg.png");
+	background: url(res/bg.png);
 	background-repeat: no-repeat;
 	/* background-color: #F5D6AB; */
 	background-blend-mode: multiply;
