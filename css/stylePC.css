@@ -44,18 +44,25 @@ ul, li {
 	list-style-type: none; /* Убираем маркеры */
 }
 
+@media screen and (min-width: 1300px) {
+	
+.dropbtn{
+	display: none;
+}
 /* главная страница */
 .heroSection{
-	height: 768px;
 	width: 100%;
-	background: url('res/bg.png');
+	background: url('../res/bg.png');
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color: #F5D6AB;
 	background-blend-mode: multiply;
+	padding-bottom: 5%;
 }
 
 header{
-	padding: 0 165px;
+	padding-left: 15%;
+	padding-right: 15%;
 	padding-top: 90px;
  	display: flex;
 }
@@ -72,6 +79,7 @@ header{
 	font-size: 24px;
 	line-height: 29px;
 }
+
 header .logo {
 	width: 50%;
 }
@@ -88,7 +96,7 @@ header .nav ul {
 
 header .nav li	 {
 	text-align: right;
-	padding-right: 13%;
+	padding-left: 13%;
 }
 header .nav li a:hover	 {
 	font-weight:bold;
@@ -96,7 +104,8 @@ header .nav li a:hover	 {
 
 
 .content{
-	padding: 0 165px;
+	padding-left: 15%;
+	padding-right: 15%;
 	padding-top: 93px;
 }
 
@@ -168,20 +177,16 @@ header .nav li a:hover	 {
 }
 
 .skillsImage{
-	background: url('res/Profile\ Picture.png');
+	background: url('../res/Profile\ Picture.png');
 	background-repeat: no-repeat;
 	height: 350px;
-	width: 40%;
+	width: 60%;
 }
 
 .value{
 	margin-left: 125px;
 	width: 13%;
 	margin-right: 130px;
-}
-
-.contents{
-	width:34%;
 }
 progress {
     border:0;
@@ -225,7 +230,7 @@ progress::-moz-progress-bar {
 .portfolio .leftContent{
 	text-align: left;
 	padding-top: 48px;
-	width: 50%;
+	width: 60%;
 	font-size: 18px;
 	line-height: 30px;
 }
@@ -247,15 +252,20 @@ footer{
 	width: 100%;
 	height: 822px;
 	background: #FFFAF2;
+	
 }
 
 footer a{
 	color: black;
 }
 
+footer table{
+	border-spacing: 70px 0;
+}
+
 footer td:nth-child(2){
-	padding: 0 340px;
 	padding-bottom: 14px;
+	width: 85%;
 }
 
 footer .up{
@@ -263,5 +273,9 @@ footer .up{
 	margin-top: 100px;
 }
 
-/* ###### */
+#contact table{
+	text-align: center;
+}
 
+/* ###### */
+}
