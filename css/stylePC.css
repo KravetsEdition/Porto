@@ -52,7 +52,7 @@ ul, li {
 /* главная страница */
 .heroSection{
 	width: 100%;
-	background: url('../res/bg.png');
+	background: url('./res/bg.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color: #F5D6AB;
