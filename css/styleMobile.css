@@ -64,7 +64,7 @@ header{
 
 /* главная страница */
 .heroSection{
-	background: url('../res/bg.png');
+	background: url('./res/bg.png');
     margin: 0 auto;
 	background-repeat: no-repeat;
 	background-blend-mode: multiply;
@@ -80,7 +80,7 @@ header{
 	padding-bottom: 50px;
 	border: none;
 	cursor: pointer;
-	background: url('../res/GlobalNavButton\(E700\).png');
+	background: url('./res/GlobalNavButton\(E700\).png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
