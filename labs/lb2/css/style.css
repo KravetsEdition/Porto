@@ -1,0 +1,235 @@
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'MuseoModerno', cursive;
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-size: 16px;
+}
+
+*  *::after *::before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: #82868f;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 113px	
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-color: #f7fdfe;
+	padding-top: 30px;
+	display: flex;	
+}
+
+.logo{
+	margin-left: 5%;
+}
+
+.nav{
+	margin-left: auto;
+	margin-right: 5%;
+}
+
+.nav ul{
+	margin-top: 10px;
+}
+
+.nav li{
+	padding-left: 30px;
+	display: inline;
+}
+
+.nav button {
+	background-color: #0ebfdd; /* Green */
+	border: none;
+	color: white;
+	padding: 4px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 50px;
+	margin-left: 30px;
+	width: 125px;
+	height: 40px;
+  }
+
+/* intro */
+  .intro-container{
+	  background-image: url("../res/intro.png");
+	  height: 600px;
+  }
+
+.intro-container h3,p, img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+	text-align: center;
+	color: #f7fdfe;
+}
+
+.intro-container h3{
+	margin-top: -2%;
+	font-size: 44px;
+}
+
+.intro-container p{
+	font-size: 22px;
+}
+
+.intro-text{
+	  padding-top: 300px;
+}
+
+/* short bio */
+
+.short-bio {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.short-bio h3{
+	color: #0ebfdd;	
+	font-size: 44px;
+	font-
+}
+
+.short-bio p{
+	color: #45494d;
+	font-size 20px;
+	padding-bottom: 70px;
+}
+
+/* team */
+
+.team{
+	background-color:#0ebfdd;
+	height: 600px;
+	text-align: center;
+}
+
+.team h3{
+	padding-top: 60px;
+}
+
+.members h3{
+	padding-top: 60px;
+	font-size: 16px;
+}
+
+.members p{
+	font-size: 16px;
+	padding-bottom: 100px;
+}
+.team img{
+	padding-top: 100px;
+}
+
+.team button{
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	outline: none;
+	border: 1px solid white; 
+	border-radius: 20px;
+	height: 48px;
+	width: 180px;
+	line-height: 48px;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+	background-color: #0ebfdd;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation; 
+}
+
+.team button:focus{
+	box-shadow: 0 0 0 3px rgb(108 117 125 / 50%);
+}
+
+.team button:hover{
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+
+.members li{
+	display:inline-block; /* расположить пункты горизонтально */
+	padding: 0 100px;
+}
+
+/* maps */
+
+.map{
+	background-image: url("../res/Map.png");
+	height: 600px;
+}
+
+footer{
+	height: 150px;
+	background-color: #45494d;
+}
+
+footer ul:nth-child(1){
+	display: inline-block;
+	padding-left: 30px;
+}
+
+footer ul:nth-child(2){
+	margin-left: 78%;
+	margin-top: -5%;
+}
+
+
+footer li {
+	display: inline-block;
+	padding-top: 37px;
+	padding-left: 35px;
+	font-size: 20px;
+	text-transform:uppercase;
+}
+
+footer hr{
+	margin-top: 20px;
+	width: 90%;
+}
